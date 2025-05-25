@@ -1,0 +1,18 @@
+# Ignore Python cache
+__pycache__
+*.pyc
+
+# Ignore git metadata in repo clones (to reduce build context size)
+app/repos/.git
+
+# Ignore local environment files if any
+.env
+venv/
+env/
+
+# Ignore logs and temp files
+*.log
+
+# PyCharm
+.idea/
+*.iml
